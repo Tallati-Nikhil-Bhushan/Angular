@@ -1,0 +1,59 @@
+In Angular, there are several key terms and keywords that are fundamental to understanding and working with the framework. Here’s a list of some of the most important ones:
+
+### Angular Core Concepts
+
+1. **Component**: The basic building block of an Angular application, consisting of a TypeScript class, an HTML template, and CSS styles.
+
+2. **Directive**: A class that adds behavior to elements in your application. Directives can be structural (e.g., `*ngIf`, `*ngFor`) or attribute-based (e.g., `ngClass`, `ngStyle`).
+
+3. **Module**: A container for a cohesive block of code that includes components, directives, pipes, and services. Angular applications are modular, and the root module is `AppModule`.
+
+4. **Service**: A class that provides specific functionality, such as fetching data from a server. Services are often used to share data and logic across different parts of the application.
+
+5. **Dependency Injection (DI)**: A design pattern used in Angular to manage the creation and injection of services into components and other services.
+
+6. **Pipe**: A way to transform data in templates. Common pipes include `DatePipe`, `CurrencyPipe`, and `DecimalPipe`.
+
+7. **Observable**: A data type used for asynchronous operations, such as HTTP requests. Observables are part of RxJS, a library Angular uses for reactive programming.
+
+8. **Router**: A service that provides navigation and routing capabilities in Angular applications. The router manages navigation between different views or components.
+
+### Angular Keywords and Decorators
+
+1. **`@NgModule`**: A decorator that defines an Angular module. It specifies components, directives, pipes, and services that belong to the module.
+
+2. **`@Component`**: A decorator that defines an Angular component, including its metadata like the selector, template, and styles.
+
+3. **`@Directive`**: A decorator that defines an Angular directive, specifying its behavior and the element it can be applied to.
+
+4. **`@Injectable`**: A decorator that marks a class as available for dependency injection. Services are often marked with this decorator.
+
+5. **`@Input`**: A decorator that defines an input property for a component, allowing data to be passed from a parent component.
+
+6. **`@Output`**: A decorator that defines an output property for a component, allowing the component to emit events to a parent component.
+
+7. **`@HostListener`**: A decorator that listens for events on the host element of a directive or component.
+
+8. **`@HostBinding`**: A decorator that binds a property of the host element to a property of the directive or component.
+
+9. **`@Pipe`**: A decorator that defines a custom pipe for transforming data in templates.
+
+### Angular CLI Commands
+
+1. **`ng new`**: Creates a new Angular project.
+2. **`ng generate`** (or `ng g`): Generates a new Angular component, service, module, etc.
+3. **`ng serve`**: Builds and serves the application locally.
+4. **`ng build`**: Compiles the application into an output directory.
+5. **`ng test`**: Runs unit tests for the application.
+6. **`ng lint`**: Lints the application code.
+
+### Angular Concepts and Features
+
+1. **Change Detection**: A mechanism for updating the view whenever the data model changes.
+2. **Reactive Forms**: A way to manage form inputs and validation using reactive programming principles.
+3. **Template-driven Forms**: A way to manage forms using Angular’s declarative approach.
+4. **NgRx**: A library for managing state in Angular applications using Redux-style state management.
+
+Understanding these keywords and concepts will help you navigate Angular’s ecosystem and build robust applications.
+
+
